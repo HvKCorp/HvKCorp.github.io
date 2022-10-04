@@ -1,2 +1,2 @@
-# LuCk-exxtreme.github.io
-My New Info Web
+Heya Homie This Is Daksh 
+Click On Any One Of The Following To Know More About Me:
