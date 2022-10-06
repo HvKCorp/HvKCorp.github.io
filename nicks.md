@@ -17,4 +17,4 @@
 - Trevor
 - Max
 
-[Home](https://roadside-havoc.github.io) | [Next Page](/hobbies)
+[Home](https://roadside-havoc.github.io) | [Next Page](/hobbies.md)
