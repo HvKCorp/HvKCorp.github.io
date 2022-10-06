@@ -40,4 +40,4 @@
 - Arcade
 - Casino
 
-[Home](https://roadside-havoc.github.io)
+[Home](https://roadside-havoc.github.io) | [Next Page](/games.md)
