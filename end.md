@@ -9,4 +9,4 @@ Daksh Mehta,
 Roadside Havoc, Founder & C.E.O.
 
 
-[Home](https://roadside-havoc.github.io/) | [Professional Profile](https://roadside-havoc.github.io/Havoc/About.md) 
+[Home](https://roadside-havoc.github.io/) | [Professional Profile](https://roadside-havoc.github.io/Havoc) 
