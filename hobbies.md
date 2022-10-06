@@ -11,4 +11,4 @@
 - Live In My World Of Fantasy
 - Write Down Something New
 
-[Home](https://roadside-havoc.github.io) | [Next Page](/genres)
+[Home](https://roadside-havoc.github.io) | [Next Page](/genres.md)
