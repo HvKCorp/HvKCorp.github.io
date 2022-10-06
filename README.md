@@ -1,7 +1,7 @@
 # Home Page
 
 # Heya Homie 
-***__This Is Daksh__*** 
+***This Is Daksh*** 
 
 ## Click On Any One Of The Following To Know More About Me:
 
