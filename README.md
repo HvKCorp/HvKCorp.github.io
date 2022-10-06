@@ -5,4 +5,4 @@
 
 ## Click On Any One Of The Following To Know More About Me:
 
-[A Bit About Me](/abt.md) | [Highlights About Me](/highlights.md) | [My Nicknames](/nicks.md) | [Hobbies](/hobbies.md) | [Next Page](/abt.md)
+[A Bit About Me](/abt) | [Highlights About Me](/highlights) | [My Nicknames](/nicks) | [Hobbies](/hobbies) | [Next Page](/abt)
