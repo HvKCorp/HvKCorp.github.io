@@ -9,3 +9,5 @@
 ## Microsoft
 
 - Minecraft : PE
+
+[Home](https://roadside-havoc.github.io/) | [Next Page](/music.md)
