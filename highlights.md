@@ -13,4 +13,4 @@
 - Careless
 - Mean
 
-[Home](https://roadside-havoc.github.io) | [Next Page](/nicks)
+[Home](https://roadside-havoc.github.io) | [Next Page](/nicks.md)
