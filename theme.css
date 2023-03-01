@@ -6,17 +6,17 @@ body {
 }
 
 /* Set text color to light gray */
-body, p, h2, h3, h4, h5, h6 {
+body, p, h1, h2, h3, h4, h5, h6 {
   color: #ddd;
 }
 
-h1 {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 36px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #fff;
+@font-face {
+  font-family: 'Orbitron';
+  src: url('/Orbitron-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+
 
 /* Set link color to light blue */
 a {
@@ -29,7 +29,7 @@ a:hover {
 }
 
 /* Set color for headings to light blue */
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   color: #99c2ff;
 }
 
