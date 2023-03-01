@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
 # About Me
 
 ## I Started My Life On:
