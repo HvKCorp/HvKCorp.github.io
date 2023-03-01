@@ -10,6 +10,14 @@ body, p, h1, h2, h3, h4, h5, h6 {
   color: #ddd;
 }
 
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
 /* Set link color to light blue */
 a {
   color: #99c2ff;
