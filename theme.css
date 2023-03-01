@@ -6,7 +6,7 @@ body {
 }
 
 /* Set text color to light gray */
-body, p, h1, h2, h3, h4, h5, h6 {
+body, p, h2, h3, h4, h5, h6 {
   color: #ddd;
 }
 
@@ -29,7 +29,7 @@ a:hover {
 }
 
 /* Set color for headings to light blue */
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   color: #99c2ff;
 }
 
