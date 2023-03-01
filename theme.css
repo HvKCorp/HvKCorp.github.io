@@ -1,6 +1,6 @@
 /* Set background color to black */
 body {
-  background: url('path/to/image.jpg') no-repeat center center fixed;
+  background: url('/DALL·E 2023-03-01 21.20.47 - A cyberpunk cityscape with neon lights, flying cars, and towering skyscrapers..png') no-repeat center center fixed;
   background-color: #f3f3f3; /* replace with your desired color */
   background-size: cover;
 }
