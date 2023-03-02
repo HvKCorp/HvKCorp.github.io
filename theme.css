@@ -1,6 +1,6 @@
 /* Set background color to black */
 body {
-  background: url('/DALL·E 2023-03-01 21.20.47 - A cyberpunk cityscape with neon lights, flying cars, and towering skyscrapers..png') ;
+  background: url('/DALL·E 2023-03-01 21.20.47 - A cyberpunk cityscape with neon lights, flying cars, and towering skyscrapers..png');
   background-color: #f3f3f3; /* replace with your desired color */
   background-size: cover;
 }
@@ -8,40 +8,20 @@ body {
 /* Set text color to light gray */
 body, p, h1, h2, h3, h4, h5, h6 {
   color: #ddd;
-  font-family: 'Orbitron-Regular', sans-serif;
+  font-family: 'Orbitron', sans-serif; /* Apply Orbitron font to all headings and text */
 }
 
-/* Add animations to headings */
-h1, h2, h3, h4, h5, h6 {
-  color: #99c2ff;
-  animation: fadeInUp 1s ease-in-out;
-  animation-fill-mode: forwards;
-}
+/* Load Orbitron font from Google Fonts API */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
-/* Define keyframes for animation */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* Add hover effect to links */
+/* Set link color to light blue */
 a {
   color: #99c2ff;
-  text-decoration: none;
-  border-bottom: 1px solid #99c2ff;
-  transition: border-bottom 0.3s ease-in-out;
 }
 
 /* Set hover color for links to white */
 a:hover {
   color: #fff;
-  border-bottom: 1px solid #fff;
 }
 
 /* Set background color for code blocks to dark gray */
