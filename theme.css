@@ -8,29 +8,40 @@ body {
 /* Set text color to light gray */
 body, p, h1, h2, h3, h4, h5, h6 {
   color: #ddd;
+  font-family: 'Orbitron', sans-serif;
 }
 
-@font-face {
-  font-family: 'Orbitron';
-  src: url('/Orbitron-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+/* Add animations to headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #99c2ff;
+  animation: fadeInUp 1s ease-in-out;
+  animation-fill-mode: forwards;
 }
 
+/* Define keyframes for animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
-/* Set link color to light blue */
+/* Add hover effect to links */
 a {
   color: #99c2ff;
+  text-decoration: none;
+  border-bottom: 1px solid #99c2ff;
+  transition: border-bottom 0.3s ease-in-out;
 }
 
 /* Set hover color for links to white */
 a:hover {
   color: #fff;
-}
-
-/* Set color for headings to light blue */
-h1, h2, h3, h4, h5, h6 {
-  color: #99c2ff;
+  border-bottom: 1px solid #fff;
 }
 
 /* Set background color for code blocks to dark gray */
