@@ -74,12 +74,12 @@ h1, h2, h3 {
 
 /* Set link color to light blue */
 a {
-  color: #99c2ff;
+  color: #ff9900;
 }
 
 /* Set hover color for links to white */
 a:hover {
-  color: #fff;
+  color: #cc6600;
 }
 
 /* Set background color for code blocks to dark gray */
