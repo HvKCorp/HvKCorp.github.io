@@ -6,12 +6,29 @@ body {
   background-size: cover;
   background-position: center center;
   text-align: center;
+  font-size: 30;
 }
 
 /* Set text color to light gray */
 body, p, h1, h2, h3, h4, h5, h6 {
   color: #ddd;
   font-family: 'Orbitron', sans-serif; /* Apply Orbitron font to all headings and text */
+}
+
+h1 {
+  color: FF00FF;
+}
+
+h2{
+  color: 00FF00;
+}
+
+h3 {
+  color: 00FFFF;
+}
+
+p {
+  color: FF69B4;
 }
 
 /* Load Orbitron font from Google Fonts API */
