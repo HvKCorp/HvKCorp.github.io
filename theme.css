@@ -2,7 +2,9 @@
 body {
   background: url('/DALL·E 2023-03-01 21.20.47 - A cyberpunk cityscape with neon lights, flying cars, and towering skyscrapers..png');
   background-color: #f3f3f3; /* replace with your desired color */
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 
 /* Set text color to light gray */
