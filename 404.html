@@ -5,16 +5,13 @@ permalink: /404.html
 <html>
   <head>
     <title>404 Game</title>
-    <style>
-      canvas {
-        border: 1px solid black;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@glitchkey/breakout-game@latest/dist/style.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@glitchkey/breakout-game@latest/dist/index.js"></script>
   </head>
   <body>
     <h1>404 - You seem lost, is it??😎</h1>
     <p>Oh Man You Messed Up : <a href="https://roadside-havoc.github.io/">Go Back</a></p>
-    <canvas id="gameCanvas"></canvas>
+    <canvas id="breakout" width="800" height="600"></canvas>
     <script>
       // Set up canvas
       var canvas = document.getElementById("gameCanvas");
