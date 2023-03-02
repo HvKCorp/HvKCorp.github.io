@@ -6,12 +6,25 @@ body {
   background-size: cover;
   background-position: center center;
   text-align: center;
+  animation: pulse 10s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 0 -10px;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 
 /* Set text color to light gray */
 body, p, h1, h2, h3, h4, h5, h6 {
   font-family: 'Orbitron', sans-serif; /* Apply Orbitron font to all headings and text */
-    font-size: 50;
+    font-size: 50px;
 }
 
 h1 {
@@ -28,6 +41,32 @@ h3 {
 
 p {
   color: #FF69B4;
+}
+
+h1, h2, h3 {
+  text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff;
+}
+
+h1, h2, h3 {
+  animation: glitch 2s infinite;
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: -2px 0 #00ffff;
+  }
+  25% {
+    text-shadow: 2px 0 #00ffff;
+  }
+  50% {
+    text-shadow: -2px 0 #00ffff;
+  }
+  75% {
+    text-shadow: 2px 0 #00ffff;
+  }
+  100% {
+    text-shadow: -2px 0 #00ffff;
+  }
 }
 
 /* Load Orbitron font from Google Fonts API */
