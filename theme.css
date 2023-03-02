@@ -5,6 +5,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  text-align: center;
 }
 
 /* Set text color to light gray */
