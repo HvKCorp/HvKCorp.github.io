@@ -16,19 +16,19 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  color: FF00FF;
+  color: #FF00FF;
 }
 
 h2{
-  color: 00FF00;
+  color: #00FF00;
 }
 
 h3 {
-  color: 00FFFF;
+  color: #00FFFF;
 }
 
 p {
-  color: FF69B4;
+  color: #FF69B4;
 }
 
 /* Load Orbitron font from Google Fonts API */
@@ -62,10 +62,10 @@ blockquote {
 
 /* Set color for navigation links */
 .navbar a {
-  color: #ddd;
+  color: #ff9900;
 }
 
 /* Set hover color for navigation links to light blue */
 .navbar a:hover {
-  color: #99c2ff;
+  color: #cc6600;
 }
