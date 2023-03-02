@@ -14,46 +14,21 @@ permalink: /404.html
     <canvas id="breakout" width="800" height="600"></canvas>
     <script>
       // Set up canvas
-      var canvas = document.getElementById("gameCanvas");
-      var ctx = canvas.getContext("2d");
-      canvas.width = 400;
-      canvas.height = 400;
+      var canvas = document.getElementById("breakout");
 
-      // Set up variables
-      var ballRadius = 10;
-      var x = canvas.width/2;
-      var y = canvas.height-30;
-      var dx = 2;
-      var dy = -2;
+      // Set up game
+      var game = new BreakoutGame(canvas, {
+        ballColor: "#0095DD",
+        paddleColor: "#0095DD",
+        brickColor: "#0095DD",
+        backgroundColor: "#222",
+        wallColor: "#0095DD",
+        scoreColor: "#0095DD",
+        livesColor: "#0095DD",
+      });
 
-      // Draw ball
-      function drawBall() {
-        ctx.beginPath();
-        ctx.arc(x, y, ballRadius, 0, Math.PI*2);
-        ctx.fillStyle = "#0095DD";
-        ctx.fill();
-        ctx.closePath();
-      }
-
-      // Draw game
-      function draw() {
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        drawBall();
-
-        // Bounce off walls
-        if(x + dx > canvas.width-ballRadius || x + dx < ballRadius) {
-          dx = -dx;
-        }
-        if(y + dy > canvas.height-ballRadius || y + dy < ballRadius) {
-          dy = -dy;
-        }
-
-        x += dx;
-        y += dy;
-      }
-
-      // Set up game loop
-      setInterval(draw, 10);
+      // Start game
+      game.start();
     </script>
   </body>
 </html>
