@@ -31,11 +31,52 @@
           transform: translate(0);
         }
       }
+
+      /* Custom styles */
+      body {
+        background-color: #333;
+        font-family: Arial, sans-serif;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        margin-top: 5%;
+        font-size: 4em;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      p {
+        font-size: 1.5em;
+        margin: 2em 0;
+      }
+      a {
+        display: inline-block;
+        padding: 1em 2em;
+        background-color: #00ff00;
+        color: #333;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 2em;
+        transition: background-color 0.2s ease-in-out;
+      }
+      a:hover {
+        background-color: #fff;
+        color: #00ff00;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 10%;
+      }
     </style>
   </head>
   <body>
-    <h1><span class="glitch">Oh no, it looks like you've messed up!</span></h1>
+    <img src="https://via.placeholder.com/500x300.png?text=404+Error" alt="404 Error">
+    <h1><span class="glitch">Uh oh!</span></h1>
     <p>The page you're looking for could not be found. Please check the URL and try again.</p>
-    <p><a href="https://roadside-havoc.github.io/">Click here</a> to go back to the homepage.</p>
+    <p><a href="https://roadside-havoc.github.io/">Go back to the homepage</a></p>
   </body>
 </html>
