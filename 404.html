@@ -1,34 +1,41 @@
----
-permalink: /404.html
----
 <!DOCTYPE html>
 <html>
   <head>
-    <title>404 Game</title>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@glitchkey/breakout-game@latest/dist/style.css">
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@glitchkey/breakout-game@latest/dist/index.js"></script>
+    <meta charset="UTF-8">
+    <title>404 Page Not Found</title>
+    <style>
+      /* Glitch effect styles */
+      .glitch {
+        font-size: 3em;
+        color: #00ff00;
+        text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000;
+        animation: glitch 1s infinite;
+      }
+      @keyframes glitch {
+        0% {
+          transform: translate(0);
+        }
+        20% {
+          transform: translate(-5px, 5px);
+        }
+        40% {
+          transform: translate(5px, -5px);
+        }
+        60% {
+          transform: translate(-5px, 5px);
+        }
+        80% {
+          transform: translate(5px, -5px);
+        }
+        100% {
+          transform: translate(0);
+        }
+      }
+    </style>
   </head>
   <body>
-    <h1>404 - You seem lost, is it??😎</h1>
-    <p>Oh Man You Messed Up : <a href="https://roadside-havoc.github.io/">Go Back</a></p>
-    <canvas id="breakout" width="800" height="600"></canvas>
-    <script>
-      // Set up canvas
-      var canvas = document.getElementById("breakout");
-
-      // Set up game
-      var game = new BreakoutGame(canvas, {
-        ballColor: "#0095DD",
-        paddleColor: "#0095DD",
-        brickColor: "#0095DD",
-        backgroundColor: "#222",
-        wallColor: "#0095DD",
-        scoreColor: "#0095DD",
-        livesColor: "#0095DD",
-      });
-
-      // Start game
-      game.start();
-    </script>
+    <h1><span class="glitch">Oh no, it looks like you've messed up!</span></h1>
+    <p>The page you're looking for could not be found. Please check the URL and try again.</p>
+    <p><a href="https://roadside-havoc.github.io/">Click here</a> to go back to the homepage.</p>
   </body>
 </html>
