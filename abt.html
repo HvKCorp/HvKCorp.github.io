@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>About Me</title>
+  <title>My Personal Profile</title>
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Baskerville:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
@@ -14,6 +14,8 @@
       background-color: #f3f3f3;
       background-size: cover;
       font-family: 'Baskerville', serif;
+      padding: 20px;
+      margin: 0;
     }
     
     /* Set text color to dark gray */
@@ -35,6 +37,7 @@
     h1, h2 {
       margin-top: 40px;
       margin-bottom: 20px;
+      font-size: 32px;
     }
 
     /* Set spacing for paragraphs */
@@ -64,7 +67,22 @@
     .navbar a:hover {
       color: #b3d9ff;
     }
- 
+
+    /* Set layout for content */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
@@ -72,20 +90,13 @@
     <a href="https://roadside-havoc.github.io">Home</a>
   </div>
   <h1>About Me</h1>
-  <h2>I Started My Life On:</h2>
-  <p>17 December 2007</p>
-  <h2>I'll End My Life On:</h2>
-  <p>Not In Mood To Estimate That</p>
-  <h2>Nationalitiy:</h2>
-  <p>India</p>
-  <h2>School:</h2>
-  <p>Ekayanaa School</p>
-  <h2>Grade:</h2>
-  <p>10th</p>
-  <h2>Personality:</h2>
-  <p>Not Defined</p>
-  <div class="nav-links">
-    <a href="/highlights.md">Next Page</a>
-  </div>
-</body>
-</html>
+  <table>
+    <tr>
+      <th>Birthdate:</th>
+      <td>December 17, 2007</td>
+    </tr>
+    <tr>
+      <th>Nationality:</th>
+      <td>Indian</td>
+    </tr>
+   
