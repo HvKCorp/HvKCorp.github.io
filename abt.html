@@ -5,6 +5,7 @@
   <title>My Personal Profile</title>
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Baskerville:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-kGPI+T3mGS3/kNG6OuS6xngz7omuF0f0G7VqdPh9X8cC2NlEWEJw7AVvmN+Cqv8UCiaWYn+cjc/aPmn5I5M5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     /* Set background color to light gray */
     body {
@@ -12,7 +13,6 @@
       background-repeat: no-repeat;
       background-position: center center;
       background-color: #f3f3f3;
-      background-size: cover;
       font-family: 'Baskerville', serif;
       padding: 20px;
       margin: 0;
@@ -83,16 +83,20 @@
     th {
       font-weight: bold;
     }
-    
-    /* Add social media icons */
-    .social-icons {
-      margin-top: 40px;
-      text-align: center;
-    }
-    
+
+    /* Set styling for social icons */
     .social-icons a {
       display: inline-block;
       margin-right: 10px;
+      color: #666;
+      font-size: 20px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    /* Set hover effect for social icons */
+    .social-icons a:hover {
+      color: #0066cc;
+      transform: scale(1.2);
     }
   </style>
 </head>
