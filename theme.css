@@ -9,6 +9,19 @@ body {
   animation: pulse 10s infinite;
 }
 
+/* Apply styles for screens smaller than 768px (most mobile devices) */
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 24px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 36px;
+  }
+
+  /* Add any other styles you want to apply for mobile devices */
+}
+
 @keyframes pulse {
   0% {
     background-position: 0 0;
