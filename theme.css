@@ -9,19 +9,6 @@ body {
   animation: pulse 10s infinite;
 }
 
-/* Apply styles for screens smaller than 768px (most mobile devices) */
-@media screen and (max-width: 767px) {
-  body {
-    font-size: 24px;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    font-size: 36px;
-  }
-
-  /* Add any other styles you want to apply for mobile devices */
-}
-
 @keyframes pulse {
   0% {
     background-position: 0 0;
@@ -96,5 +83,23 @@ a:hover {
 
 /* Set background color for code blocks to dark gray */
 pre, code {
-  background-color: #222;
-  color: #ddd
+background-color: #222;
+color: #ddd;
+padding: 10px;
+font-family: 'Source Code Pro', monospace;
+font-size: 16px;
+}
+
+/* Add responsive design for smaller screens */
+@media only screen and (max-width: 768px) {
+body {
+font-size: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+font-size: 30px;
+}
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
