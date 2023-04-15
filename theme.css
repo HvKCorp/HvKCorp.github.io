@@ -90,10 +90,7 @@ font-family: 'Source Code Pro', monospace;
 font-size: 16px;
 }
 
-/* Add responsive design for smaller screens */
-@media (max-width: 767px) {
-  /* Show rotate device message */
-  .rotate-device {
-    display: block;
-  }
+if (/Mobi|Android/i.test(navigator.userAgent)) {
+  // Mobile device detected
+  Please rotate your device for a better experience
 }
