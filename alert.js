@@ -1,7 +1,8 @@
-function checkOrientation() {
-  if (window.innerHeight > window.innerWidth) {
-    alert("Please rotate your device to landscape mode for a better experience.");
+function callback(){
+  alert(window.orientation);
+  if(window.innerHeight > window.innerWidth){
+    alert("Rotate the device for best experience")
   }
 }
 
-window.addEventListener("resize", checkOrientation);
+window.addEventListener('orientationchange', callback, true);
