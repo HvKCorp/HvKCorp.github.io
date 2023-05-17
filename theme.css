@@ -26,30 +26,39 @@ body {
 /* Set text color to light gray */
 body, p, h1, h2, h3, h4, h5, h6 {
   font-family: 'Orbitron', sans-serif; /* Apply Orbitron font to all headings and text */
-  font-size: 50px;
   color: #ddd;
 }
 
 h1 {
+  font-size: 50px;
   color: #FF00FF;
   text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff;
   animation: glitch 2s infinite;
 }
 
-h2{
+h2 {
+  font-size: 50px;
   color: #00FF00;
   text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff;
   animation: glitch 2s infinite;
 }
 
 h3 {
+  font-size: 50px;
   color: #00FFFF;
   text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff;
   animation: glitch 2s infinite;
 }
 
 p {
+  font-size: 50px;
   color: #FF69B4;
+}
+
+@media only screen and (max-width: 600px) {
+  h1, h2, h3, p {
+    font-size: 80px; /* Increase the font size for mobile devices */
+  }
 }
 
 @keyframes glitch {
@@ -85,9 +94,9 @@ a:hover {
 
 /* Set background color for code blocks to dark gray */
 pre, code {
-background-color: #222;
-color: #ddd;
-padding: 10px;
-font-family: 'Source Code Pro', monospace;
-font-size: 16px;
+  background-color: #222;
+  color: #ddd;
+  padding: 10px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px;
 }
