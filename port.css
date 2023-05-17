@@ -1,36 +1,104 @@
-    body, html {    
-  height: 100%;
+/* Mobile Styles */
+
+/* Adjust font sizes for smaller screens */
+h1 {
+  font-size: 40px;
 }
 
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+/* Center align the text */
 body {
- background-color: #1E4922;
+  text-align: center;
 }
 
-div#cont {
-  height: 100%;
+/* Adjust padding and margin for better spacing */
+header {
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
-img#menu {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100%;
+main {
+  padding: 20px;
 }
 
+section {
+  margin-bottom: 20px;
+}
 
-@media screen and (orientation:portrait) {
-  body:before {
-    content: "Please rotate the device for best experience";
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    z-index: 99999;
+.social-icons {
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 10px;
+}
+
+/* Make the social icons stack vertically */
+.social-icons div {
+  display: block;
+}
+
+.social-icons li {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+/* Adjust the font size of the social icons */
+.social-icons i {
+  font-size: 24px;
+}
+
+/* Hide the background image on smaller screens */
+body {
+  background-image: none;
+  background-color: #f3f3f3;
+  animation: none;
+}
+
+/* Adjust the text shadow for better visibility */
+h1, h2, h3 {
+  text-shadow: none;
+}
+
+/* Adjust the font color for better contrast */
+body, p, h1, h2, h3, h4, h5, h6 {
+  color: #333;
+}
+
+/* Adjust the link color for better visibility */
+a {
+  color: #007bff;
+}
+
+/* Adjust the hover color for links */
+a:hover {
+  color: #0056b3;
+}
+
+/* Adjust the background color for code blocks */
+pre, code {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Responsive styles for small screens */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
     font-size: 24px;
-    text-align: center;
-    padding-top: 50%;
+  }
+
+  h3 {
+    font-size: 20px;
   }
 }
