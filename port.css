@@ -5,6 +5,12 @@ body, p, h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 /* Center align the header text on mobile */
 header {
   text-align: center;
