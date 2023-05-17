@@ -1,43 +1,38 @@
 /* Mobile Styles */
 
 /* Adjust font sizes for smaller screens */
-h1 {
-  font-size: 40px;
-}
-
-h2 {
+body, p, h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
 }
 
-h3 {
-  font-size: 24px;
-}
-
-/* Center align the text */
-body {
+/* Center align the header text on mobile */
+header {
   text-align: center;
 }
 
-/* Adjust padding and margin for better spacing */
-header {
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-main {
-  padding: 20px;
-}
-
+/* Adjust margins for sections on mobile */
 section {
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
+/* Reduce padding for social icons on mobile */
 .social-icons {
-  margin-bottom: 20px;
+  padding: 0;
 }
 
+/* Adjust the size of social icons on mobile */
+.social-icons i {
+  font-size: 30px;
+}
+
+/* Mobile-specific styles for the Next Page link */
+section ul li {
+  text-align: center;
+}
+
+/* Adjust footer text alignment on mobile */
 footer {
-  padding: 10px;
+  text-align: center;
 }
 
 /* Make the social icons stack vertically */
