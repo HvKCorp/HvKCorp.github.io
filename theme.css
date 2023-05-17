@@ -7,7 +7,8 @@ body {
   background-position: center center;
   text-align: center;
   animation: pulse 10s infinite;
-  height: 100vh; /* Set the height to 100% of the viewport height */
+  min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+  overflow-y: auto; /* Enable vertical scrolling */
 }
 
 @keyframes pulse {
