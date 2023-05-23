@@ -6,15 +6,45 @@ body {
   background-position: center center;
   text-align: center;
   background-color: #f3f3f3;
-  font-family: 'Baskerville', serif;
+  font-family: 'Indie Flower', cursive;
   padding: 20px;
   margin: 0;
 }
 
 /* Add responsive styles here */
 @media (max-width: 768px) {
-  /* Center align the navigation links */
   .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: static;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .navbar a {
+    float: none;
+    display: inline-block;
+  }
+  .navbar a, .navbar a:hover, .navbar a:active {
+    background-color: inherit;
+    color: white;
+  }
+}
+
+/* Center the content below the navigation bar */
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 24px;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #4267b2;
+}
+
+/* Additional styles for the navbar */
+.navbar {
   overflow: hidden;
   background-color: #333;
   position: fixed;
@@ -38,17 +68,4 @@ body {
 .navbar a.active {
   background-color: #4CAF50;
   color: white;
-}
-
-/* Center the content below the navigation bar */
-.social-icons a {
-  display: inline-block;
-  margin-right: 10px;
-  font-size: 24px;
-  color: #333;
-  transition: color 0.3s ease-in-out;
-}
-
-.social-icons a:hover {
-  color: #4267b2;
 }
