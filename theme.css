@@ -55,12 +55,6 @@ p {
   color: #FF69B4;
 }
 
-@media only screen and (max-width: 600px) {
-  h1, h2, h3, p {
-    font-size: 80px; /* Increase the font size for mobile devices */
-  }
-}
-
 @keyframes glitch {
   0% {
     text-shadow: -2px 0 #00ffff;
@@ -100,3 +94,18 @@ pre, code {
   font-family: 'Source Code Pro', monospace;
   font-size: 16px;
 }
+ @media only screen and (max-width: 800px) {
+      h1, h2, h3, p {
+        font-size: 80px;
+      }
+    }
+
+ 
+    .social-icons {
+      margin-top: 20px;
+    }
+
+    .social-icons li {
+      display: inline-block;
+      margin-right: 10px;
+    }
